@@ -16,7 +16,8 @@
   },
   "scripts": {
 
-    "start": "set HTTPS=true set SSL_CRT_FILE=.certificates/localhost.crt set SSL_KEY_FILE=.certificates/localhost.key && react-scripts start",
+
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && ng serve",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
