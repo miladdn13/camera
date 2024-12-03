@@ -80,7 +80,7 @@ import jsQR from "jsqr";
 
 const videoConstraints = {
     width: 540,
-    facingMode: "environment"
+    facingMode: "user"
 };
 
 const Camera = () => {
